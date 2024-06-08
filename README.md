@@ -33,6 +33,7 @@ Since BERT requires all input sequences to be of the same fixed length, sequence
 Attention masks are created to differentiate between real tokens and padding tokens. An attention mask is a binary vector that indicates which tokens are actual words and which are padding. A mask value of '1' represents real tokens, while a mask value of '0' represents padding tokens. This is necessary because BERT needs to know which parts of the input are actual data and which parts are just padding.
 
 ![Flowchart of the Preprocessing Steps](plots/image2.png)
+
 *Figure 2: Flowchart of the Preprocessing Steps*
 
 ## Model Implementation
