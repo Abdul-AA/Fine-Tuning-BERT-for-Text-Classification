@@ -54,11 +54,11 @@ The model was trained for three epochs. This choice is supported by literature, 
 ## Evaluation
 The model's performance was evaluated on a held-out test set. The results are reported using metrics such as accuracy and F1 score, which provides a balance between precision and recall, giving an overall measure of the model's performance in predicting each class. The F1 score is particularly useful for multi-class classification tasks as it provides a single metric that reflects the performance across all classes.
 
-| Metric    | Training | Validation | Test |
-|-----------|-----------|------------|------|
-| Loss      | 0.474     | 0.587      | 0.588|
-| F1 Score  | 1.000     | 0.908      | 0.843|
-| Accuracy  | 1.000     | 0.905      | 0.845|
+| Metric    | Validation | Test |
+|-----------|------------|------|
+| Loss      | 0.587      | 0.588|
+| F1 Score  | 0.908      | 0.843|
+| Accuracy  | 0.905      | 0.845|
 
 *Table 1: Model Performance Metrics*
 
